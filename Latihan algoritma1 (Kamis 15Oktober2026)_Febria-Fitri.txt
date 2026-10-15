@@ -1,0 +1,16 @@
+algoritma1:
+1) siapkan variable untuk simpan sederet nama
+   nama = [ari, dewi, sinta, aji]
+2) lakukan perulangan untuk mencari nama Dewi
+    i = 0;
+    for cari in nama
+        if cari == "dewi"
+            TRUE
+        i +=1;
+
+Big O => 
+
+O(n) untuk iterasi pencarian nama dewi dalam variable deret nama
+==> O(4) jika nama dewi ada diposisi terakhir
+
+O(1) jika ternyata nama dewi ditemukan pada indeks pertama (nama[0])
